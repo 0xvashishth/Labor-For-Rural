@@ -100,9 +100,8 @@
 		                    <h4 class="heading">Wheat Cutting</h4>
 		                    <h5>250 ₹</h5>
 		                    <h6><span class="text2">Timings : </span> 8 AM to 12 PM</h6>
-		                    <div class="mt-5">
-		                        <div class="mt-3"> <span class="text1">32 Applied <span class="text2">of 50 capacity</span></span> </div>
-		                    </div>
+		                    	<button type="button" class="btn btn-primary">Apply</button>
+		                    
 		                </div>
 		            </div>
 		        </div>
