@@ -48,17 +48,34 @@
 	<br>
 
 	<!-- filters -->
-	<div class="container">
-		<input class="form-control" id="myInput" type="text" placeholder="Search a work...">
-		 <br>
-		<select class="form-select w-25" aria-label="Default select example">
-		  <option selected>Crop</option>
-		  <option value="rice">rice</option>
-		  <option value="wheat">wheat</option>
-		  <option value="tobacco">tobacco</option>
-		  <option value="sugarcane">sugarcane</option>
-		</select>
-
+	<div class="container ">
+			<input class="form-control" id="myInput" type="text" placeholder="Search by keyword...">
+			<br>
+			<div class="row d-flex justify-content-center">
+				<select class="form-select w-25" id="cropselect" aria-label="Default select example">
+				  <option selected>Filter by Crop</option>
+				  <option value="rice">rice</option>
+				  <option value="wheat">wheat</option>
+				  <option value="tobacco">tobacco</option>
+				  <option value="sugarcane">sugarcane</option>
+				</select>
+				&nbsp;&nbsp;
+				<select class="form-select w-25" id="timingselect" aria-label="Default select example">
+				  <option selected>Filter by Timing</option>
+				  <option value="rice">rice</option>
+				  <option value="wheat">wheat</option>
+				  <option value="tobacco">tobacco</option>
+				  <option value="sugarcane">sugarcane</option>
+				</select>
+				&nbsp;&nbsp;
+				<select class="form-select w-25" id="workselect" aria-label="Default select example">
+				  <option selected>Filter by work</option>
+				  <option value="harvesting">harvesting</option>
+				  <option value="planting">planting</option>
+				  <option value="plough-fields">plough fields</option>
+				  <option value="other">other</option>
+				</select>
+			</div>
 	</div>
 <!-- work section -->
 	
