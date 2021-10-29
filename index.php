@@ -101,7 +101,6 @@
 		                    <h5>250 ₹</h5>
 		                    <h6><span class="text2">Timings : </span> 8 AM to 12 PM</h6>
 		                    	<button type="button" class="btn btn-primary">Apply</button>
-		                    
 		                </div>
 		            </div>
 		        </div>
@@ -123,9 +122,7 @@
 		                    <h4 class="heading">Wheat Cutting</h4>
 		                    <h5>250 ₹</h5>
 		                    <h6><span class="text2">Timings : </span> 8 AM to 12 PM</h6>
-		                    <div class="mt-5">
-		                        <div class="mt-3"> <span class="text1">32 Applied <span class="text2">of 50 capacity</span></span> </div>
-		                    </div>
+		                    	<button type="button" class="btn btn-primary">Apply</button>
 		                </div>
 		            </div>
 		        </div>
@@ -135,7 +132,7 @@
 		                    <div class="d-flex flex-row align-items-center">
 		                        <div class="icon"> <img class="avatar11" src="https://www.w3schools.com/w3images/avatar6.png" alt="avatar" /> </div>
 		                        <div class="ms-2 c-details">
-		                            <h6 class="mb-0">Rameshbhaixx</h6> <span>1 days ago</span>
+		                            <h6 class="mb-0">Rameshbhai</h6> <span>1 days ago</span>
 		                        </div>
 		                    </div>
 		                </div><br>
@@ -147,9 +144,7 @@
 		                    <h4 class="heading">Wheat Cutting</h4>
 		                    <h5>250 ₹</h5>
 		                    <h6><span class="text2">Timings : </span> 8 AM to 12 PM</h6>
-		                    <div class="mt-5">
-		                        <div class="mt-3"> <span class="text1">32 Applied <span class="text2">of 50 capacity</span></span> </div>
-		                    </div>
+		                    	<button type="button" class="btn btn-primary">Apply</button>
 		                </div>
 		            </div>
 		        </div>	
