@@ -49,7 +49,16 @@
 
 	<!-- filters -->
 	<div class="container">
-		<input class="form-control" id="myInput" type="text" placeholder="Search..">
+		<input class="form-control" id="myInput" type="text" placeholder="Search a work...">
+		 <br>
+		<select class="form-select w-25" aria-label="Default select example">
+		  <option selected>Crop</option>
+		  <option value="rice">rice</option>
+		  <option value="wheat">wheat</option>
+		  <option value="tobacco">tobacco</option>
+		  <option value="sugarcane">sugarcane</option>
+		</select>
+
 	</div>
 <!-- work section -->
 	
