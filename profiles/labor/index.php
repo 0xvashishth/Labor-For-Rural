@@ -32,10 +32,10 @@
 	          <a class="nav-link active" aria-current="page" href="#">Work</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link active" href="#">Add Work</a>
+	          <a class="nav-link">Add Work</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link active" href="#">Contact-us</a>
+	          <a class="nav-link active" href="#contactModal" data-toggle="modal">Contact-us</a>
 	          <!-- <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
 	        </li>
 	      </ul>
@@ -224,8 +224,47 @@
             </div>
         </footer>
     </div>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- modals -->
+
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+            <img src="assets/images/logowhite.jpg" class="logi" height="50" width="80">
+          </div>
+          <div class="modal-body">
+            <form action="https://formspree.io/f/xnqldlgp" method="post"> 
+              <div class="form-group">
+                <label for="formGroupExampleInput" class="col-form-label">Name:</label>
+                <input type="text" class="form-control" name="name" id="formGroupExampleInput" required placeholder="Enter Name">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="formGroupExampleInput2" aria-describedby="emailHelp" placeholder="Enter Email" name="email">
+              </div>
+              <div class="form-group">
+                <label for="recipient-mobile" class="col-form-label">Mobile No:</label>
+                <input type="text" class="form-control" id="recipient-mobile" aria-describedby="emailHelp" placeholder="Enter Phone No" name="number">
+              </div>
+              <div class="form-group">
+                <label for="concern" class="col-form-label">Elaborate Your Concern:</label>
+                <textarea class="form-control" id="recipient-concern" name="concern" placeholder="Enter Your Concern"></textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <input type="submit" value="Submit" class="btn btn-danger my-3">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<script>
 $(document).ready(function(){
