@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="assets/img/logo.png">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 	<title>Labor For Rural</title>
 	<link rel="stylesheet" href="assets/css/style.css">
 
@@ -101,6 +102,7 @@
 		                    <h5>250 ₹</h5>
 		                    <h6><span class="text2">Timings : </span> 8 AM to 12 PM</h6>
 		                    	<button type="button" class="btn btn-primary">Apply</button>
+		                    	<button type="button" class="btn btn-secondary float-right">Wishlist</button>
 		                </div>
 		            </div>
 		        </div>
@@ -123,6 +125,7 @@
 		                    <h5>250 ₹</h5>
 		                    <h6><span class="text2">Timings : </span> 8 AM to 12 PM</h6>
 		                    	<button type="button" class="btn btn-primary">Apply</button>
+		                    	<button type="button" class="btn btn-secondary">Wishlist</button>
 		                </div>
 		            </div>
 		        </div>
@@ -145,6 +148,7 @@
 		                    <h5>250 ₹</h5>
 		                    <h6><span class="text2">Timings : </span> 8 AM to 12 PM</h6>
 		                    	<button type="button" class="btn btn-primary">Apply</button>
+		                    	<button type="button" class="btn btn-secondary">Wishlist</button>
 		                </div>
 		            </div>
 		        </div>	
@@ -192,12 +196,41 @@
 		  </button>
 		</div>
 	</div>
-
-
+<br>
+ <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#" class="bg-light"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Company Name © 2018</p>
+            </div>
+        </footer>
+    </div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script>
 $(document).ready(function(){
   $("#myInput").on("keyup", function() {
     var value = $(this).val().toLowerCase();
