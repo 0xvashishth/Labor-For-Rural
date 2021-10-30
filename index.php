@@ -304,41 +304,41 @@
             <img src="assets/images/logowhite.jpg" class="logi" height="50" width="80">
           </div>
           <div class="modal-body">
-            <form action="https://formspree.io/f/xnqldlgp" method="post"> 
+            <form action="profiles/action.php" method="post"> 
               <div class="form-group">
-                <label for="formGroupExampleInput" class="col-form-label">Name:</label>
-                <input type="text" class="form-control" name="name" id="formGroupExampleInput" required placeholder="Enter Name">
+                <label for="formGroupExampleInput1" class="col-form-label">Name:</label>
+                <input type="text" class="form-control" name="nameregister" id="formGroupExampleInput1" required placeholder="Enter Name">
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput" class="col-form-label">Email:</label>
-                <input type="email" class="form-control" name="email" id="formGroupExampleInput" required placeholder="Enter Email">
+                <label for="formGroupExampleInput2" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" name="emailregister" id="formGroupExampleInput2" required placeholder="Enter Email">
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput" class="col-form-label">Mobile No:</label>
-                <input type="text" class="form-control" name="mobile" id="formGroupExampleInput" required placeholder="Enter Mobile No">
+                <label for="formGroupExampleInput3" class="col-form-label">Mobile No:</label>
+                <input type="text" class="form-control" name="mobileregister" id="formGroupExampleInput3" required placeholder="Enter Mobile No">
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput" class="col-form-label">Age:</label>
-                <input type="text" class="form-control" name="age" id="formGroupExampleInput" required placeholder="Enter Your Age">
+                <label for="formGroupExampleInput4" class="col-form-label">Age:</label>
+                <input type="text" class="form-control" name="ageregister" id="formGroupExampleInput4" required placeholder="Enter Your Age">
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput" class="col-form-label">Village:</label>
-                <input type="text" class="form-control" name="village" id="formGroupExampleInput" required placeholder="Enter Your Village">
+                <label for="formGroupExampleInput5" class="col-form-label">Village:</label>
+                <input type="text" class="form-control" name="villageregister" id="formGroupExampleInput5" required placeholder="Enter Your Village">
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput" class="col-form-label">Role:</label>
-                <select required name="role" class="form-control">
+                <label for="formGroupExampleInput6" class="col-form-label">Role:</label>
+                <select required name="roleregister" class="form-control" id="formGroupExampleInput6">
                 	<option value="worker">Worker</option>
                 	<option value="manager">Manager</option>
                 </select>
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput2" class="col-form-label">Set Username:</label>
-                <input type="Password" class="form-control" id="formGroupExampleInput2" aria-describedby="emailHelp" placeholder="Enter Username" name="username">
+                <label for="formGroupExampleInput7" class="col-form-label">Set Username:</label>
+                <input type="text" class="form-control" id="formGroupExampleInput7" aria-describedby="emailHelp" placeholder="Enter Username" name="usernameregister">
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput2" class="col-form-label">Set Password:</label>
-                <input type="Password" class="form-control" id="formGroupExampleInput2" aria-describedby="emailHelp" placeholder="Enter Password" name="password">
+                <label for="formGroupExampleInput8" class="col-form-label">Set Password:</label>
+                <input type="Password" class="form-control" id="formGroupExampleInput8" aria-describedby="emailHelp" placeholder="Enter Password" name="passwordregister">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
