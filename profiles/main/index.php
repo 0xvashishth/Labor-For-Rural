@@ -1,3 +1,18 @@
+<?php
+session_start();
+if((isset($_SESSION['reg_action_username'])) && (isset($_SESSION['reg_action_username']))){
+	$_SESSION['add_work_for_user'] = $_SESSION['reg_action_username'];
+}
+else if((isset($_SESSION['log_action_username'])) && (isset($_SESSION['log_action_username']))){
+		$_SESSION['add_work_for_user'] = $_SESSION['log_action_username'];
+}
+else{
+	header("Location: ../error.php");
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -236,26 +251,26 @@
             <img src="assets/images/logowhite.jpg" class="logi" height="50" width="80">
           </div>
           <div class="modal-body">
-            <form action="https://formspree.io/f/xnqldlgp" method="post"> 
+            <form action="addwork.php" method="post"> 
               <div class="form-group">
-                <label for="formGroupExampleInput" class="col-form-label">Select Work Name:</label>
-                <input type="text" class="form-control" name="name" id="formGroupExampleInput" required placeholder="Enter Name">
+                <label for="formGroupExampleInput1" class="col-form-label">Work Name:</label>
+                <input type="text" class="form-control" name="wname" id="formGroupExampleInput1" required placeholder="Enter Work Name">
               </div>
               <div class="form-group">
                 <label for="formGroupExampleInput2" class="col-form-label">Price:</label>
-                <input type="email" class="form-control" id="formGroupExampleInput2" aria-describedby="emailHelp" placeholder="Enter Email" name="email">
+                <input type="text" class="form-control" id="formGroupExampleInput2" aria-describedby="emailHelp" placeholder="Enter price" name="wprice">
               </div>
               <div class="form-group">
                 <label for="recipient-mobile" class="col-form-label">Mobile No:</label>
-                <input type="text" class="form-control" id="recipient-mobile" aria-describedby="emailHelp" placeholder="Enter Phone No" name="number">
+                <input type="text" class="form-control" id="recipient-mobile" aria-describedby="emailHelp" placeholder="Enter Phone No" name="wnumber">
               </div>
               <div class="form-group">
-                <label for="recipient-mobile" class="col-form-label">Timing :</label>
-                <input type="text" class="form-control" id="recipient-mobile" aria-describedby="emailHelp" placeholder="Enter Phone No" name="number">
+                <label for="recipient-mobile1" class="col-form-label">Timing :</label>
+                <input type="text" class="form-control" id="recipient-mobile1" aria-describedby="emailHelp" placeholder="Enter Timing" name="wtime">
               </div>
               <div class="form-group">
                 <label for="concern" class="col-form-label">Description :</label>
-                <textarea class="form-control" id="recipient-concern" name="concern" placeholder="Enter Your Concern"></textarea>
+                <textarea class="form-control" id="concern" name="wdescription" placeholder="Enter Work Description"></textarea>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
