@@ -8,7 +8,7 @@
 ![Contributor](https://img.shields.io/github/contributors/vasu-1/Labor-For-Rural)
 ![lastcommit](https://img.shields.io/github/last-commit/vasu-1/Labor-For-Rural)
 ![totalcommit](https://img.shields.io/github/commit-activity/w/vasu-1/Labor-For-Rural)
-![license](https://img.shields.io/badge/license-Apache-blue)
+![license](https://img.shields.io/badge/license-Apache2.0-blue)
 
 ---
 
