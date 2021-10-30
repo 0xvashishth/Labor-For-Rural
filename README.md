@@ -1,8 +1,8 @@
-<center><img src="https://user-images.githubusercontent.com/76911582/139538885-bbd17dc5-aa78-4499-bc3c-28d7a52b7770.png" float="center"></center>
+# Hello Viewers <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 ---
 
-# Labor For Rural <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+# Labor For Rural <img src="https://user-images.githubusercontent.com/76911582/139538885-bbd17dc5-aa78-4499-bc3c-28d7a52b7770.png"  width="30px">
 #### A portal for Labors of villages.
 
 ---
