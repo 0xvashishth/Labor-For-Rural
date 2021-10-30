@@ -111,22 +111,22 @@
 		    <div class="carousel-item active">
 		      <img src="assets/img/labor1.jpg" class="d-block w-100" height="600px" alt="...">
 		      <div class="carousel-caption d-none d-md-block">
-		        <h1>First slide label</h1>
-		        <h3>Some representative placeholder content for the first slide.</h3>
+		        <h1>Welcome To Labor For Rural</h1>
+		        <h3>It is only through labor and painful effort, by grim energy and resolute courage, that we move on to better things.</h3>
 		      </div>
 		    </div>
 		    <div class="carousel-item">
 		      <img src="assets/img/laborone2.jpg" class="d-block w-100" height="600px" alt="...">
 		      <div class="carousel-caption d-none d-md-block">
-		        <h1>First slide label</h1>
-		        <h3>Some representative placeholder content for the first slide.</h3>
+		        <h1>Welcome To Labor For Rural</h1>
+		        <h3>The supreme accomplishment is to blur the lines between work and play.</h3>
 		      </div>
 		    </div>
 		    <div class="carousel-item">
 		      <img src="assets/img/labor3.jpg" class="d-block w-100" height="600px" alt="...">
 		      <div class="carousel-caption d-none d-md-block">
-		        <h1>First slide label</h1>
-		        <h3>Some representative placeholder content for the first slide.</h3>
+		        <h1>Welcome To Labor For Rural</h1>
+		        <h3>A man is not paid for having a head and hands, but for using them.</h3>
 		      </div>
 		    </div>
 		  </div>
@@ -140,6 +140,7 @@
 		  </button>
 		</div>
 	</div>
+
 <br>
 
 
@@ -186,7 +187,7 @@
             <img src="assets/img/logo.png" class="logi" height="50" width="80">
           </div>
           <div class="modal-body">
-            <form action="https://formspree.io/f/xnqldlgp" method="post"> 
+            <form action="https://formspree.io/f/mwkaoank" method="post"> 
               <div class="form-group">
                 <label for="formGroupExampleInput21" class="col-form-label">Name:</label>
                 <input type="text" class="form-control" name="name" id="formGroupExampleInput21" required placeholder="Enter Name">
