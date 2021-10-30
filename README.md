@@ -30,6 +30,15 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 
+---
+
+### Project Setup :-
+
+- Clone the repo in your `htdocs` folder with the command `git clone https://github.com/vasu-1/Labor-For-Rural.git`.
+- Import a database from `assets/labor.sql`.
+- Setup username and passwords in your database from `profiles/config.php`.
+- Make sure you have started the `Apache` and `mysql` servers.
+- Search for `localhost/Labor-For-Rural` in your favourite browser.
 
 ### Project Maintainer :-
 
