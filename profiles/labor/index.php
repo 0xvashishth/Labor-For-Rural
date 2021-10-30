@@ -78,9 +78,9 @@ else{
 						$result = mysqli_query( $conn , $sql );
 						if( !$result )
 							die( "Something went wrong" );
-						while( $row=mysqli_fetch_assoc($result))
+												while( $row=mysqli_fetch_assoc($result))
 						{
-
+							if($i % 2 == 0){
 							echo '<div class="col-md-4 rr">
 		            <div class="card p-3 mb-2">
 		                <div class="d-flex justify-content-between">
@@ -100,11 +100,35 @@ else{
 		                    <h5>'. $row["wprice"] .'₹</h5>
 		                    <h6><span class="text2">Timings : </span>'. $row["wtime"] .'</h6>
 		                    <h6><span class="text2">Phone : </span>'. $row["wnumber"] .'</h6>
-		                    	<button type="button" class="btn btn-primary">Apply</button>
-		                    	<button type="button" class="btn btn-secondary float-right">Wishlist</button>
+		                    	<button type="button" class="btn btn-danger">Delete</button>
+		                </div>
+		            </div>
+		        </div>';}
+		        else{
+		        	echo '<div class="col-md-4 rr">
+		            <div class="card p-3 mb-2">
+		                <div class="d-flex justify-content-between">
+		                    <div class="d-flex flex-row align-items-center">
+		                        <div class="icon"> <img class="avatar11" src="https://www.w3schools.com/w3images/avatar3.png" alt="avatar" /> </div>
+		                        <div class="ms-2 c-details">
+		                            <h6 class="mb-0">'. $row["linkuser"] .'</h6> <span>'. $row["created_time"] .'</span>
+		                        </div>
+		                    </div>
+		                </div><br>
+		                <div class="d-flex">
+		                    <div class="badge"> <span>Design</span> </div>
+		                    <div class="badge"> <span>Design</span> </div>
+		                </div>
+		                <div class="mt-2">
+		                    <h4 class="heading">'. $row["wname"] .'</h4>
+		                    <h5>'. $row["wprice"] .'₹</h5>
+		                    <h6><span class="text2">Timings : </span>'. $row["wtime"] .'</h6>
+		                    <h6><span class="text2">Phone : </span>'. $row["wnumber"] .'</h6>
+		                    	<button type="button" class="btn btn-danger">Delete</button>
 		                </div>
 		            </div>
 		        </div>';
+		        }
 						    $i ++;
 						}
 
