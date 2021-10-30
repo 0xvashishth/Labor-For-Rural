@@ -40,6 +40,4 @@ else{
 	exit('Error From 1st Frame');
 }
 
-
-
 ?>
