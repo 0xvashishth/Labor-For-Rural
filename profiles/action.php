@@ -7,7 +7,7 @@ if ((isset($_POST['nameregister'])) && (isset($_POST['emailregister'])) && (isse
 	
 	if((!empty($_POST['nameregister'])) && (!empty($_POST['emailregister'])) && (!empty($_POST['mobileregister'])) && (!empty($_POST['ageregister'])) && (!empty($_POST['villageregister'])) && (!empty($_POST['roleregister'])) && (!empty($_POST['usernameregister'])) && (!empty($_POST['passwordregister']))){
 
-		$name = $_POST['nameregister'];
+		$name = $_SESSION['reg_action_name'] = $_POST['nameregister'];
 		$email = $_POST['emailregister'];
 		$mobile = $_POST['mobileregister'];
 		$age = $_POST['ageregister'];

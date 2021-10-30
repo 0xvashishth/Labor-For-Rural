@@ -1,10 +1,10 @@
 <?php
 session_start();
 if((isset($_SESSION['reg_action_username'])) && (isset($_SESSION['reg_action_username']))){
-	$_SESSION['add_work_for_user'] = $_SESSION['reg_action_username'];
+	$_SESSION['add_work_for_user'] = $_SESSION['reg_action_name'];
 }
 else if((isset($_SESSION['log_action_username'])) && (isset($_SESSION['log_action_username']))){
-		$_SESSION['add_work_for_user'] = $_SESSION['log_action_username'];
+		$_SESSION['add_work_for_user'] = $_SESSION['log_action_name'];
 }
 else{
 	header("Location: ../error.php");
@@ -95,13 +95,25 @@ else{
 	<div class="container myTable">
 		<div class="container mt-5 mb-3">
 		    <div class="row">
-		        <div class="col-md-4 rr">
+
+						<?php
+
+						include '../config.php';
+
+						$sql = "SELECT * FROM `work`";
+						$result = mysqli_query( $conn , $sql );
+						if( !$result )
+							die( "Something went wrong" );
+						while( $row=mysqli_fetch_assoc($result))
+						{
+
+							echo '<div class="col-md-4 rr">
 		            <div class="card p-3 mb-2">
 		                <div class="d-flex justify-content-between">
 		                    <div class="d-flex flex-row align-items-center">
 		                        <div class="icon"> <img class="avatar11" src="https://www.w3schools.com/w3images/avatar6.png" alt="avatar" /> </div>
 		                        <div class="ms-2 c-details">
-		                            <h6 class="mb-0">Rameshbhai</h6> <span>1 days ago</span>
+		                            <h6 class="mb-0">'. $row["linkuser"] .'</h6> <span>'. $row["created_time"] .'</span>
 		                        </div>
 		                    </div>
 		                </div><br>
@@ -109,61 +121,20 @@ else{
 		                    <div class="badge"> <span>Design</span> </div>
 		                    <div class="badge"> <span>Design</span> </div>
 		                </div>
-		                <div class="mt-4">
-		                    <h4 class="heading">Wheat Cutting</h4>
-		                    <h5>250 ₹</h5>
-		                    <h6><span class="text2">Timings : </span> 8 AM to 12 PM</h6>
+		                <div class="mt-2">
+		                    <h4 class="heading">'. $row["wname"] .'</h4>
+		                    <h5>'. $row["wprice"] .'₹</h5>
+		                    <h6><span class="text2">Timings : </span>'. $row["wtime"] .'</h6>
 		                    	<button type="button" class="btn btn-primary">Apply</button>
 		                    	<button type="button" class="btn btn-secondary float-right">Wishlist</button>
 		                </div>
 		            </div>
-		        </div>
-		        <div class="col-md-4 rr">
-		            <div class="card p-3 mb-2">
-		                <div class="d-flex justify-content-between">
-		                    <div class="d-flex flex-row align-items-center">
-		                        <div class="icon"> <img class="avatar11" src="https://www.w3schools.com/w3images/avatar6.png" alt="avatar" /> </div>
-		                        <div class="ms-2 c-details">
-		                            <h6 class="mb-0">Rameshbhai</h6> <span>1 days ago</span>
-		                        </div>
-		                    </div>
-		                </div><br>
-		                <div class="d-flex">
-		                    <div class="badge"> <span>Design</span> </div>
-		                    <div class="badge"> <span>Design</span> </div>
-		                </div>
-		                <div class="mt-4">
-		                    <h4 class="heading">Wheat Cutting</h4>
-		                    <h5>250 ₹</h5>
-		                    <h6><span class="text2">Timings : </span> 8 AM to 12 PM</h6>
-		                    	<button type="button" class="btn btn-primary">Apply</button>
-		                    	<button type="button" class="btn btn-secondary">Wishlist</button>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="col-md-4 rr">
-		            <div class="card p-3 mb-2">
-		                <div class="d-flex justify-content-between">
-		                    <div class="d-flex flex-row align-items-center">
-		                        <div class="icon"> <img class="avatar11" src="https://www.w3schools.com/w3images/avatar6.png" alt="avatar" /> </div>
-		                        <div class="ms-2 c-details">
-		                            <h6 class="mb-0">Rameshbhai</h6> <span>1 days ago</span>
-		                        </div>
-		                    </div>
-		                </div><br>
-		                <div class="d-flex">
-		                    <div class="badge"> <span>Design</span> </div>
-		                    <div class="badge"> <span>Design</span> </div>
-		                </div>
-		                <div class="mt-4">
-		                    <h4 class="heading">Wheat Cutting</h4>
-		                    <h5>250 ₹</h5>
-		                    <h6><span class="text2">Timings : </span> 8 AM to 12 PM</h6>
-		                    	<button type="button" class="btn btn-primary">Apply</button>
-		                    	<button type="button" class="btn btn-secondary">Wishlist</button>
-		                </div>
-		            </div>
-		        </div>	
+		        </div>';
+						    $i ++;
+						}
+
+
+						 ?>	
 		    </div>
 		</div>
 	</div>
