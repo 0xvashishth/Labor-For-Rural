@@ -5,6 +5,8 @@
 ## Labor For Rural
 #### A portal for Labors of villages.
 
+https://img.shields.io/github/contributors/vasu-1/Labor-For-Rural
+
 ---
 
 ### Functionalities :- 
