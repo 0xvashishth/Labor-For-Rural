@@ -60,7 +60,7 @@ body {
   border-radius: 50%;
 }
 .footer-dark {
-  padding:50px 0;
+  padding:20px 0;
   color:#f0f9ff;
   background-color:#282d32;
 }
@@ -126,7 +126,7 @@ body {
 .footer-dark .item.social > a {
   font-size:20px;
   width:36px;
-  height:36px;
+  height:30px;
   line-height:36px;
   display:inline-block;
   text-align:center;

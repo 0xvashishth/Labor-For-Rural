@@ -32,15 +32,15 @@
 	          <a class="nav-link active" aria-current="page" href="#">Work</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link active" href="#contactModal" data-toggle="modal">Add Work</a>
+	          <a class="nav-link active" href="#noticeModal" data-toggle="modal">Add Work</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link active" href="#">Contact-us</a>
+	          <a class="nav-link active" href="#contactModal" data-toggle="modal">Contact-us</a>
 	          <!-- <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
 	        </li>
 	      </ul>
-	        <a class="btn btn-outline-primary" href="login.php">Login</a> &nbsp;
-	        <a class="btn btn-outline-secondary" href="login.php">Register</a>
+	        <a class="btn btn-outline-primary" href="#loginModal" data-toggle="modal">Login</a> &nbsp;
+	        <a class="btn btn-outline-secondary" href="#registerModal" data-toggle="modal">Register</a>
 	    </div>
 	  </div>
 	</nav>
@@ -198,16 +198,18 @@
 		</div>
 	</div>
 <br>
+<!-- footer -->
  <div class="footer-dark">
         <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-md-3 item">
-                        <h3>Services</h3>
+                        <h3>Quick Links</h3>
                         <ul>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Work</a></li>
+                            <li><a href="#">Add Work</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">
@@ -215,21 +217,21 @@
                         <ul>
                             <li><a href="#">Company</a></li>
                             <li><a href="#">Team</a></li>
-                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6 item text">
-                        <h3>Company Name</h3>
-                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                        <h3>Labor For Rural</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                     <div class="col item social"><a href="#" class="bg-light"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
                 </div>
-                <p class="copyright">Company Name © 2018</p>
+                <p class="copyright">Labor For Rural © 2021</p>
             </div>
         </footer>
     </div>
 
-<!-- modals -->
+<!--contact us modals -->
 
     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -249,10 +251,6 @@
                 <input type="email" class="form-control" id="formGroupExampleInput2" aria-describedby="emailHelp" placeholder="Enter Email" name="email">
               </div>
               <div class="form-group">
-                <label for="recipient-mobile" class="col-form-label">Mobile No:</label>
-                <input type="text" class="form-control" id="recipient-mobile" aria-describedby="emailHelp" placeholder="Enter Phone No" name="number">
-              </div>
-              <div class="form-group">
                 <label for="concern" class="col-form-label">Elaborate Your Concern:</label>
                 <textarea class="form-control" id="recipient-concern" name="concern" placeholder="Enter Your Concern"></textarea>
               </div>
@@ -266,6 +264,102 @@
       </div>
     </div>
 
+<!-- login modal -->
+
+
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Login</h5>
+            <img src="assets/images/logowhite.jpg" class="logi" height="50" width="80">
+          </div>
+          <div class="modal-body">
+            <form action="https://formspree.io/f/xnqldlgp" method="post"> 
+              <div class="form-group">
+                <label for="formGroupExampleInput" class="col-form-label">Username:</label>
+                <input type="text" class="form-control" name="username" id="formGroupExampleInput" required placeholder="Enter Username">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2" class="col-form-label">Password:</label>
+                <input type="Password" class="form-control" id="formGroupExampleInput2" aria-describedby="emailHelp" placeholder="Enter Password" name="password">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <input type="submit" value="Submit" class="btn btn-success my-3">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- register modal -->
+
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Register</h5>
+            <img src="assets/images/logowhite.jpg" class="logi" height="50" width="80">
+          </div>
+          <div class="modal-body">
+            <form action="https://formspree.io/f/xnqldlgp" method="post"> 
+              <div class="form-group">
+                <label for="formGroupExampleInput" class="col-form-label">Name:</label>
+                <input type="text" class="form-control" name="name" id="formGroupExampleInput" required placeholder="Enter Name">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" name="email" id="formGroupExampleInput" required placeholder="Enter Email">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput" class="col-form-label">Mobile No:</label>
+                <input type="text" class="form-control" name="mobile" id="formGroupExampleInput" required placeholder="Enter Mobile No">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput" class="col-form-label">Age:</label>
+                <input type="text" class="form-control" name="age" id="formGroupExampleInput" required placeholder="Enter Your Age">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput" class="col-form-label">Village:</label>
+                <input type="text" class="form-control" name="village" id="formGroupExampleInput" required placeholder="Enter Your Village">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2" class="col-form-label">Set Username:</label>
+                <input type="Password" class="form-control" id="formGroupExampleInput2" aria-describedby="emailHelp" placeholder="Enter Username" name="username">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2" class="col-form-label">Set Password:</label>
+                <input type="Password" class="form-control" id="formGroupExampleInput2" aria-describedby="emailHelp" placeholder="Enter Password" name="password">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <input type="submit" value="Submit" class="btn btn-primary my-3">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- notice modal -->
+
+  <div class="modal fade" id="noticeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">You haven't logged in</h5>
+      </div>
+      <div class="modal-body">
+        Please login or register to add work or apply for a work.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
