@@ -9,6 +9,7 @@
 ![lastcommit](https://img.shields.io/github/last-commit/vasu-1/Labor-For-Rural)
 ![totalcommit](https://img.shields.io/github/commit-activity/w/vasu-1/Labor-For-Rural)
 ![license](https://img.shields.io/badge/license-Apache2.0-blue)
+![hacknitr](https://img.shields.io/badge/hacknitr-3.0-blue)
 
 ---
 
@@ -81,3 +82,6 @@
 ### Project Maintainer :-
 
 [![Contributors List](https://contrib.rocks/image?repo=vasu-1/Labor-For-Rural)](https://github.com/vasu-1/Labor-For-Rural/graphs/contributors)
+
+
+### Happy Hacking !!!
