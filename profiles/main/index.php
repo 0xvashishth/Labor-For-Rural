@@ -54,7 +54,7 @@ else{
 	          <!-- <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
 	        </li>
 	      </ul>
-	        <a class="btn btn-outline-primary" href="login.php">Logout</a>
+	        <a class="btn btn-outline-primary" href="../logout.php">Logout</a>
 	    </div>
 	  </div>
 	</nav>
