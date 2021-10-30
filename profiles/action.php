@@ -33,7 +33,7 @@ if ((isset($_POST['nameregister'])) && (isset($_POST['emailregister'])) && (isse
 
 	}
 	else{
-		exit('Error From 2nd Frame');
+		header("Location: error.php");
 	}
 }
 else if(isset($_POST['usernamelog']) && isset($_POST['rolelog']) && isset($_POST['passwordlog'])){
@@ -46,7 +46,7 @@ else if(isset($_POST['usernamelog']) && isset($_POST['rolelog']) && isset($_POST
 		$rolelog = $_POST['rolelog'];
 		$passwordlog = $_SESSION['log_action_password'] = $_POST['passwordlog'];
 
-		$sql = "SELECT * FROM `users` where `username` = '$usernamelog' and `password` = '$passwordlog';";
+		$sql = "SELECT * FROM `users` where `username` = '$usernamelog' and `password` = '$passwordlog' and `role` = '$rolelog';";
 		$result = mysqli_query($conn,$sql);
 		$row=mysqli_fetch_assoc($result);
 		$_SESSION['log_action_name'] = $row["name"];
@@ -55,16 +55,21 @@ else if(isset($_POST['usernamelog']) && isset($_POST['rolelog']) && isset($_POST
             exit("error");
         }
         else{
+        	if($row["username"] == $usernamelog){
         	if($rolelog == "manager")
             	header("Location: main/");        
             else
             	header("Location: labor/");	
         }
+        else{
+        	header("Location: error.php");
+        }
+    }
 
 	}
 }
 else{
-	exit('Error From 1st Frame');
+	header("Location: error.php");
 }
 
 ?>

@@ -29,11 +29,11 @@ if((isset($_POST['wname'])) && (isset($_POST['wprice'])) && (isset($_POST['wnumb
 
 	}
 	else{
-		exit('Error in frame 2');
+		header("Location: ../error.php");
 	}
 }
 else{
-	exit('Error in frame 1');
+	header("Location: ../error.php");
 }
 
 ?>

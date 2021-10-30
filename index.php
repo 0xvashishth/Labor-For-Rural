@@ -185,16 +185,16 @@
           <div class="modal-body">
             <form action="https://formspree.io/f/xnqldlgp" method="post"> 
               <div class="form-group">
-                <label for="formGroupExampleInput" class="col-form-label">Name:</label>
-                <input type="text" class="form-control" name="name" id="formGroupExampleInput" required placeholder="Enter Name">
+                <label for="formGroupExampleInput21" class="col-form-label">Name:</label>
+                <input type="text" class="form-control" name="name" id="formGroupExampleInput21" required placeholder="Enter Name">
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput2" class="col-form-label">Email:</label>
-                <input type="email" class="form-control" id="formGroupExampleInput2" aria-describedby="emailHelp" placeholder="Enter Email" name="email">
+                <label for="formGroupExampleInput22" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="formGroupExampleInput22" aria-describedby="emailHelp" placeholder="Enter Email" name="email">
               </div>
               <div class="form-group">
-                <label for="concern" class="col-form-label">Elaborate Your Concern:</label>
-                <textarea class="form-control" id="recipient-concern" name="concern" placeholder="Enter Your Concern"></textarea>
+                <label for="concern23" class="col-form-label">Elaborate Your Concern:</label>
+                <textarea class="form-control" id="concern23" name="concern" placeholder="Enter Your Concern"></textarea>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
