@@ -217,15 +217,23 @@
             <img src="assets/img/logo.png" class="logi" height="50" width="80">
           </div>
           <div class="modal-body">
-            <form action="https://formspree.io/f/xnqldlgp" method="post"> 
+            <form action="profiles/action.php" method="post"> 
               <div class="form-group">
-                <label for="formGroupExampleInput" class="col-form-label">Username:</label>
-                <input type="text" class="form-control" name="username" id="formGroupExampleInput" required placeholder="Enter Username">
+                <label for="formGroupExampleInput11" class="col-form-label">Username:</label>
+                <input type="text" class="form-control" name="usernamelog" id="formGroupExampleInput11" required placeholder="Enter Username">
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput2" class="col-form-label">Password:</label>
-                <input type="Password" class="form-control" id="formGroupExampleInput2" aria-describedby="emailHelp" placeholder="Enter Password" name="password">
+                <label for="formGroupExampleInput12" class="col-form-label">Role:</label>
+                <select required name="rolelog" class="form-control" id="formGroupExampleInput12">
+                	<option value="worker">Worker</option>
+                	<option value="manager">Manager</option>
+                </select>
               </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput13" class="col-form-label">Password:</label>
+                <input type="Password" class="form-control" id="formGroupExampleInput13" aria-describedby="emailHelp" placeholder="Enter Password" name="passwordlog">
+              </div>
+
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <input type="submit" value="Submit" class="btn btn-success my-3">

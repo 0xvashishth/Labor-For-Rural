@@ -36,6 +36,33 @@ if ((isset($_POST['nameregister'])) && (isset($_POST['emailregister'])) && (isse
 		exit('Error From 2nd Frame');
 	}
 }
+else if(isset($_POST['usernamelog']) && isset($_POST['rolelog']) && isset($_POST['passwordlog'])){
+
+	if((!empty($_POST['usernamelog'])) && (!empty($_POST['rolelog'])) && (!empty($_POST['passwordlog']))) {
+
+		require_once('config.php');
+
+		$usernamelog = $_SESSION['log_action_username'] = $_POST['usernamelog'];
+		$rolelog = $_POST['rolelog'];
+		$passwordlog = $_SESSION['log_action_password'] = $_POST['passwordlog'];
+
+		$sql = "SELECT * FROM `users` where `username` = '$usernamelog' and `password` = '$passwordlog';";
+		$result = mysqli_query($conn,$sql);
+		$row=mysqli_fetch_assoc($result);
+		$_SESSION['log_action_name'] = $row["name"];
+		if( !$result ){
+            echo mysqli_error($conn);
+            exit("error");
+        }
+        else{
+        	if($rolelog == "manager")
+            	header("Location: main/");        
+            else
+            	header("Location: labor/");	
+        }
+
+	}
+}
 else{
 	exit('Error From 1st Frame');
 }

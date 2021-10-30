@@ -1,3 +1,18 @@
+<?php
+session_start();
+if((isset($_SESSION['reg_action_username'])) && (isset($_SESSION['reg_action_username']))){
+	// $_SESSION['add_work_for_user'] = $_SESSION['reg_action_name'];
+}
+else if((isset($_SESSION['log_action_username'])) && (isset($_SESSION['log_action_username']))){
+		// $_SESSION['add_work_for_user'] = $_SESSION['log_action_name'];
+}
+else{
+	header("Location: ../error.php");
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
