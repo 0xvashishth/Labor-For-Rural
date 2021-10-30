@@ -41,6 +41,12 @@
 - Make sure you have started the `Apache` and `mysql` servers.
 - Search for `localhost/Labor-For-Rural` in your favourite browser.
 
+---
+
+### Screenshots :-
+
+
+
 ### Project Maintainer :-
 
 [![Contributors List](https://contrib.rocks/image?repo=vasu-1/Labor-For-Rural)](https://github.com/vasu-1/Labor-For-Rural/graphs/contributors)
