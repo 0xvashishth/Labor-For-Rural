@@ -22,6 +22,22 @@
 
 --- 
 
+### More Ideas :-
+
+- We can send `sms` or `email` to the labourer and managers.
+- We can have different `databases` for different villages.
+- We can also add functionality to edit the work card.
+- We can Implement Wishlist section.
+- We can have some data storage for the labourers for previously done work.
+- Profile picture work can also be done in place of gravatar.
+- We can have some verification while the registration.
+- We can have cropwise filter.
+- Reporting can also be there.
+- We can also have Live chat functionalities with the manager. 
+- Etc.....
+
+---
+
 ### Language Used :-
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
