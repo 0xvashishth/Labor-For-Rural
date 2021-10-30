@@ -100,7 +100,8 @@ else{
 		                    <h5>'. $row["wprice"] .'₹</h5>
 		                    <h6><span class="text2">Timings : </span>'. $row["wtime"] .'</h6>
 		                    <h6><span class="text2">Phone : </span>'. $row["wnumber"] .'</h6>
-		                    	<button type="button" class="btn btn-danger">Delete</button>
+		                    	<button type="button" class="btn btn-primary">Apply</button>
+		                    	<button type="button" class="btn btn-secondary">Wishlist</button>
 		                </div>
 		            </div>
 		        </div>';}
@@ -124,7 +125,8 @@ else{
 		                    <h5>'. $row["wprice"] .'₹</h5>
 		                    <h6><span class="text2">Timings : </span>'. $row["wtime"] .'</h6>
 		                    <h6><span class="text2">Phone : </span>'. $row["wnumber"] .'</h6>
-		                    	<button type="button" class="btn btn-danger">Delete</button>
+		                    	<button type="button" class="btn btn-primary">Apply</button>
+		                    	<button type="button" class="btn btn-secondary">Wishlist</button>
 		                </div>
 		            </div>
 		        </div>';
