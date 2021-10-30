@@ -193,7 +193,7 @@ else{
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="workModalLabel">Add Work</h5>
-            <img src="assets/images/logowhite.jpg" class="logi" height="50" width="80">
+            <img src="../../assets/img/logo.png" class="logi" height="50" width="80">
           </div>
           <div class="modal-body">
             <form action="addwork.php" method="post"> 
@@ -232,7 +232,7 @@ else{
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
-            <img src="assets/images/logowhite.jpg" class="logi" height="50" width="80">
+            <img src="../../assets/img/logo.png" class="logi" height="50" width="80">
           </div>
           <div class="modal-body">
             <form action="https://formspree.io/f/xnqldlgp" method="post"> 

@@ -180,7 +180,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
-            <img src="assets/images/logowhite.jpg" class="logi" height="50" width="80">
+            <img src="assets/img/logo.png" class="logi" height="50" width="80">
           </div>
           <div class="modal-body">
             <form action="https://formspree.io/f/xnqldlgp" method="post"> 
@@ -214,7 +214,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="loginModalLabel">Login</h5>
-            <img src="assets/images/logowhite.jpg" class="logi" height="50" width="80">
+            <img src="assets/img/logo.png" class="logi" height="50" width="80">
           </div>
           <div class="modal-body">
             <form action="https://formspree.io/f/xnqldlgp" method="post"> 
@@ -243,7 +243,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="loginModalLabel">Register</h5>
-            <img src="assets/images/logowhite.jpg" class="logi" height="50" width="80">
+            <img src="assets/img/logo.png" class="logi" height="50" width="80">
           </div>
           <div class="modal-body">
             <form action="profiles/action.php" method="post"> 
