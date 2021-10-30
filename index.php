@@ -326,6 +326,13 @@
                 <input type="text" class="form-control" name="village" id="formGroupExampleInput" required placeholder="Enter Your Village">
               </div>
               <div class="form-group">
+                <label for="formGroupExampleInput" class="col-form-label">Role:</label>
+                <select required name="role" class="form-control">
+                	<option value="worker">Worker</option>
+                	<option value="manager">Manager</option>
+                </select>
+              </div>
+              <div class="form-group">
                 <label for="formGroupExampleInput2" class="col-form-label">Set Username:</label>
                 <input type="Password" class="form-control" id="formGroupExampleInput2" aria-describedby="emailHelp" placeholder="Enter Username" name="username">
               </div>
