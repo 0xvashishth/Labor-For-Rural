@@ -85,6 +85,7 @@
 		                    <h4 class="heading">'. $row["wname"] .'</h4>
 		                    <h5>'. $row["wprice"] .'₹</h5>
 		                    <h6><span class="text2">Timings : </span>'. $row["wtime"] .'</h6>
+		                    <h6><span class="text2">Phone : </span>'. $row["wnumber"] .'</h6>
 		                    	<button type="button" class="btn btn-primary" href="#noticeModal" data-toggle="modal">Apply</button>
 		                    	<button type="button" class="btn btn-secondary float-right" href="#noticeModal" data-toggle="modal">Wishlist</button>
 		                </div>
