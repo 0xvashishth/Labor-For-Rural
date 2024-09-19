@@ -45,9 +45,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `mobile`, `age`, `village`, `role`, `username`, `password`, `token`) VALUES
-(1, 'Vashishth Patel', 'vashishthchaudhary48@gmail.com', '+919327271053', '19', 'chulla', 'manager', '11111', '11111', 'true'),
+(1, 'Vashishth Patel', 'testadmin@gmail.com', '+919999999999', '19', 'chulla', 'manager', '11111', '11111', 'true'),
 (2, 'Ajay Chaudhary', 'vasu2@vsdsg', '9999999999', '20', 'vetla', 'manager', '22222', '22222', 'true'),
-(3, 'Raj Patil', 'vasu@tyssy', '9876543456', '25', 'bhajpura', 'manager', '33333', '33333', 'true'),
+(3, 'Raj Patil', 'vasu@tyssy', '9874545456', '25', 'bhajpura', 'manager', '33333', '33333', 'true'),
 (4, 'Ramesh', 'ram@haghag', '2346578987', '56', 'chulla', 'worker', '11111', '11111', 'true');
 
 -- --------------------------------------------------------
@@ -72,11 +72,11 @@ CREATE TABLE `work` (
 --
 
 INSERT INTO `work` (`id`, `wname`, `wprice`, `wnumber`, `wtime`, `wdescription`, `linkuser`, `created_time`) VALUES
-(1, 'Cutting Wheat', '250', '9327271054', '9AM to 2PM', 'This is test work', 'Vashishth Patel', '2021-10-30 14:15:45'),
-(2, 'Cutting Rice', '300', '9925307654', '10AM to 4PM', 'this is test work', 'Ajay Chaudhary', '2021-10-30 14:17:04'),
-(3, 'Planting Chili', '500', '6756578987', '12PM to 5PM', 'this is test work', 'Ajay Chaudhary', '2021-10-30 14:18:35'),
-(4, 'Cultivating', '700', '9898987656', '8AM to 12PM', 'this is test work', 'Raj Patil', '2021-10-30 14:20:09'),
-(5, 'Planting Peanut', '1000', '9327272456', '2PM to 6PM', 'this is test', 'Raj Patil', '2021-10-30 14:21:14'),
+(1, 'Cutting Wheat', '250', '9327456054', '9AM to 2PM', 'This is test work', 'Vashishth Patel', '2021-10-30 14:15:45'),
+(2, 'Cutting Rice', '300', '956307654', '10AM to 4PM', 'this is test work', 'Ajay Chaudhary', '2021-10-30 14:17:04'),
+(3, 'Planting Chili', '500', '6752358987', '12PM to 5PM', 'this is test work', 'Ajay Chaudhary', '2021-10-30 14:18:35'),
+(4, 'Cultivating', '700', '98984566546', '8AM to 12PM', 'this is test work', 'Raj Patil', '2021-10-30 14:20:09'),
+(5, 'Planting Peanut', '1000', '9325656456', '2PM to 6PM', 'this is test', 'Raj Patil', '2021-10-30 14:21:14'),
 (6, 'Cutting Grass', '100', '9876567865', '7AM to 11AM', 'this is test work', 'Vashishth Patel', '2021-10-30 14:22:24');
 
 --
